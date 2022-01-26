@@ -194,7 +194,7 @@ O inimigo não é páreo para o seu heroísmo, e jaz imóvel aos seus pés!
 Após derrotar o Armeiro, você percebe que seus equipamentos estão muito danificados, e olha em 
 volta, encarando todas aquelas peças de armaduras resistentes e em ótimo estado.
 
-Pressione ENTER para continuar...1
+Pressione ENTER para continuar...
 Deseja usar a armadura?
 0 - NÃO
 1 - SIM
@@ -280,7 +280,7 @@ Após derrotar o Alquimista, você olha em volta, tentando reconhecer alguma po�
 inimigo. Em uma mesa, você reconhece uma pequena garrafa de vidro contendo um líquido levemente rosado, 
 pega a garrafa e pondera se deve beber um gole.
 
-Pressione ENTER para continuar...1
+Pressione ENTER para continuar...
 Deseja beber a poção?
 0 - NÃO
 1 - SIM
@@ -289,14 +289,14 @@ Escolha: 1
 
 Você se sente revigorado para seguir adiante! Sua vida foi recuperada!
 
-Pressione ENTER para continuar...1
+Pressione ENTER para continuar...
 
 PART 8
 Ao lado da porta, você vê uma chave dourada em cima de uma mesa, e sabe que aquela chave abre a 
 outra fechadura da porta do líder inimigo. Você pega a chave e guarda na pequena bolsa que leva presa 
 ao cinto.
 
-Pressione ENTER para continuar...1
+Pressione ENTER para continuar...
 
 PART 9
 De volta à sala das portas, você se dirige à porta final. Coloca as chaves nas fechaduras, e a 
@@ -304,7 +304,7 @@ porta se abre. Seu coração acelera, memórias de toda a sua vida passam pela s
 que está muito próximo do seu objetivo final. Segura sua arma com mais firmeza, foca no combate que 
 você sabe que irá se seguir, e adentra a porta.
 
-Pressione ENTER para continuar...1
+Pressione ENTER para continuar...
 
 ENTROU NA PORTA CENTRAL
 Lá dentro, você vê o líder sentado em uma poltrona dourada, com duas fogueiras de cada lado, e 
