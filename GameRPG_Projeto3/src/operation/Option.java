@@ -50,7 +50,7 @@ public class Option {
 
 	public static void pularLinha() {
 		System.out.println();
-		System.out.print("Pressione ENTER para continuar...");
+		System.out.print("Pressione a tecla ENTER para continuar...");
 		scan.nextLine();
 	}
 
