@@ -25,7 +25,7 @@ public class Program {
 		
 		//tratamento de erros
 		try {
-			System.out.println("Seja bem vindo(a) ‡ BATALHA FINAL!\n");
+			System.out.println("Seja bem vindo(a) √† BATALHA FINAL!\n");
 			System.out.print("Informe seu nome: ");
 			String nome = scan.nextLine();
 
@@ -39,16 +39,16 @@ public class Program {
 			System.out.println("\nDados do Jogador: \n" + player1);
 
 			DifficultyLevel dificuldade = DifficultyLevel
-					.valueOf(Option.generateOption(DifficultyLevel.values(), "NÌvel de dificuldade:"));
+					.valueOf(Option.generateOption(DifficultyLevel.values(), "N√≠vel de dificuldade:"));
 			jogo.setDificuldade(dificuldade);
 
-			System.out.println("\nIniciando jogo... \nPressione ENTER para continuar...");
+			System.out.println("\nIniciando jogo... \nPressione a tecla ENTER para continuar...");
 			scan.nextLine();
 
 			Story.part1();
 			Story.part2();
 
-			Motivation motivacao = Motivation.valueOf(Option.generateOption(Motivation.values(), "Qual È a sua motivaÁ„o?"));
+			Motivation motivacao = Motivation.valueOf(Option.generateOption(Motivation.values(), "Qual √© a sua motiva√ß√£o?"));
 			player1.setMotivacao(motivacao);
 			Story.part3(player1.getMotivacao().initialText());
 
@@ -74,7 +74,7 @@ public class Program {
 			jogo.entrarEmCombate(player1, jogo.validarSeAtaca(), Door.DIREITA);
 			Story.derrotaArmeiro();
 			System.out.println("Deseja usar a armadura?");
-			System.out.println("0 - N√O");
+			System.out.println("0 - N√ÉO");
 			System.out.println("1 - SIM");
 			System.out.print("Escolha: ");
 			
@@ -93,8 +93,8 @@ public class Program {
 			jogo.entrarEmCombate(player1, jogo.validarSeAtaca(), Door.ESQUERDA);
 
 			Story.derrotaAlquimista();
-			System.out.println("Deseja beber a poÁ„o?");
-			System.out.println("0 - N√O");
+			System.out.println("Deseja beber a po√ß√£o?");
+			System.out.println("0 - N√ÉO");
 			System.out.println("1 - SIM");
 			System.out.print("Escolha: ");
 			opcao = scan.nextInt() == 1 ? true : false;
