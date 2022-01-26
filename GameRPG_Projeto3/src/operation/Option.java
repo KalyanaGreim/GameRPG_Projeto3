@@ -18,7 +18,7 @@ public class Option {
 			}
 			option = getOption();
 			if (option < 0 || option >= enumOption.length) {
-				System.out.println("OpÁ„o inv·lida!");
+				System.out.println("Op√ß√£o inv√°lida!");
 			}
 		} while (option < 0 || option >= enumOption.length);
 
@@ -35,7 +35,7 @@ public class Option {
 			}
 			option = getOption();
 			if (option < 0 || option >= arrayOption.size()) {
-				System.out.println("OpÁ„o inv·lida, digite um n˙mero v·lido!");
+				System.out.println("Op√ß√£o inv√°lida, digite um n√∫mero v√°lido!");
 			}
 		} while (option < 0 || option >= arrayOption.size());
 		return arrayOption.get(option);
@@ -50,7 +50,7 @@ public class Option {
 
 	public static void pularLinha() {
 		System.out.println();
-		System.out.print("Precisone ENTER para continuar...");
+		System.out.print("Pressione ENTER para continuar...");
 		scan.nextLine();
 	}
 
